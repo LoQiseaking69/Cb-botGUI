@@ -41,12 +41,12 @@ This is an **AI-powered cryptocurrency trading bot** that integrates **Coinbase 
 
 4. **Initialize Database**  
    ```bash
-   python trading_bot.py --init-db
+   python main.py --init-db
    ```
 
 5. **Start the Trading Bot**  
    ```bash
-   python trading_gui.py
+   python main.py
    ```
 
 ## Usage
@@ -64,9 +64,9 @@ This is an **AI-powered cryptocurrency trading bot** that integrates **Coinbase 
 
 ```
 /trading-bot
-│── trading_bot.py           # Main trading logic (API, AI model, execution)
+│── bot.py           # Main trading logic (API, AI model, execution)
 │── risk_management.py       # Enforces risk limits and trade safety
-│── trading_gui.py           # GUI for trade monitoring and control
+│── main.py           # GUI for trade monitoring and control
 │── trades.db                # SQLite database storing executed trades
 │── .env                     # API credentials (ignored in version control)
 │── requirements.txt         # Required dependencies
