@@ -22,8 +22,8 @@ This is an **AI-powered cryptocurrency trading bot** that integrates **Coinbase 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/trading-bot.git
-   cd trading-bot
+   git clone https://github.com/LoQiseaking69/Cb-botGUI.git
+   cd Cb-botGUI
    ```
 
 2. **Install Dependencies**
